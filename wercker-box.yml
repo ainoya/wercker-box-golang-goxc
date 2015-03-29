@@ -10,4 +10,6 @@ keywords:
   - cross-compile
 script: |
   go get -u -v github.com/laher/goxc
+  sudo sh -c 'wget http://stedolan.github.io/jq/download/linux64/jq -O /usr/local/bin/jq'
+  sudo chmod +x /usr/local/bin/jq
   sudo -E env PATH=$GOPATH/bin:$PATH goxc -t
