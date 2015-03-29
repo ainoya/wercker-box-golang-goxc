@@ -3,7 +3,7 @@ version: 0.2.0
 inherits: wercker/golang@1.3.0
 type: main
 platform: ubuntu@12.04
-description: Wercker box for cross-compiling Go using goxc
+description: Wercker box for cross-compiling Go using goxc (included some util tools for github release)
 keywords:
   - go
   - golang
